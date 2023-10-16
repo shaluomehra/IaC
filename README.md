@@ -1,5 +1,5 @@
 # What is IaC
-
+![Screenshot 2023-10-16 121904.png](images%2FScreenshot%202023-10-16%20121904.png)
 **In simple terms**: Imagine you're building a Lego castle. Instead of manually putting each block in place, you have a set of instructions. You follow the steps in the instructions to assemble the castle quickly and accurately
 
 **In tech terms**: IaC is like having a set of instructions, but for setting up and managing computer systems and networks. Instead of doing everything manually, you use code (like a script or a recipe) to tell computers what to do. This makes it faster, less error-prone, and easier to manage.

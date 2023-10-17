@@ -20,10 +20,10 @@
 
 #### SSH
 
-1. *`scp -i "/.ssh/tech254.pem" ~/.ssh/tech254.pem ubuntu@ec2-34-250-136-251.eu-west-1.compute.amazonaws.com:/.ssh`*: Copies your local `.pem` file (`tech254.pem`) to a remote machine via SSH. The `-i` option specifies the key to use for the operation.
+1. *`scp -i "~/.ssh/tech254.pem" ~/.ssh/tech254.pem ubuntu@18.202.239.69:~/.ssh`*: Copies your local `.pem` file (`tech254.pem`) to a remote machine via SSH. The `-i` option specifies the key to use for the operation.
 
    - Source: `~/.ssh/tech254.pem`
-   - Destination: `ubuntu@ec2-34-250-136-251.eu-west-1.compute.amazonaws.com:~/.ssh`
+   - Destination: `ubuntu@18.202.239.69`
    
 2. *`cd ~/.ssh and ls to check if it's there`*: After SSHing into the remote machine, you'll navigate to the `~/.ssh/` directory and list the files (`ls`) to verify that `tech254.pem` has been successfully transferred.
 

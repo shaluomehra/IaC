@@ -1,3 +1,11 @@
+### Before Installing Ansible 
+
+**SSH INTO YOUR CONTROLLER INSTANCE**
+
+`sudo apt update`
+
+`sudo apt upgrade -y`
+
 #### Install Ansible
 
 1. *`sudo apt install software-properties-common`*: Installs the `software-properties-common` package, which provides scripts for managing software repositories. This is a prerequisite for adding the Ansible repository.
@@ -10,7 +18,7 @@
 
 5. *`ansible --version`*: Checks the installed version of Ansible.
 
-### Look Inside
+### Change Directory
 
 1. *`cd /etc/ansible/`*: Navigates to the `/etc/ansible/` directory, where Ansible's global configuration and inventory files are typically located.
 
